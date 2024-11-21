@@ -1,0 +1,31 @@
+clc;
+
+clear all;
+
+close all;
+
+Fx=20;
+
+Sampling rate c
+
+Original sampling
+
+Tx=1/Fx; Original sampl
+
+tx=0:Tx:1; % Time vector tx
+
+x=0.7*sin(2*pi*tx); % Origin. y=resample (x, 5,4); % Re-sam
+
+ty=(0: (length(y)-1))*4*Tx/5;
+
+figure (1)
+
+stem (tx,x,'*')
+
+hold on
+
+stem(ty,y,'-.r')
+
+title('Original sequence ane
+
+factor I/D') legend('Original sequence'," factor I/D') xlabel('Time (s)'), ylabel('Amplitude'), axis([0,1,-1,1])
